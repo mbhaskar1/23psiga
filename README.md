@@ -1,22 +1,8 @@
-# Polyhedral-net Splines IsoGeometric Analysis #
+# Polyhedral-Net Splines for Iso-Geometric Analysis #
 
-Solve partial differential equations on a geometric domain (surface)
-defined by Polyhedral-net Splines for a field on the domain
-defined by Polyhedral-net Splines.
+Python library for efficiently solving elliptic partial differential equations on smooth free-form surfaces represented by polyhedral control nets with irregular configurations (grid, n-gon, polar, etc.). For technical details regarding the codebase, please refer to our journal paper [Polyhedral control-net splines for analysis](https://www.sciencedirect.com/science/article/pii/S0898122123004261). This codebase was designed through the contributions of Bhaskar Mishra and William Gregory, as well as the guidance of Kyle Lo and Dr. Jorg Peters.
 
-see <i>Bi-cubic splines for polyhedral control nets</i>,
-Jörg Peters , Kyle Lo, Kestutis Karciauskas
-TOMS , 2023, 
-[paper](https://www.cise.ufl.edu/research/SurfLab/papers/23PolySpl_TOMS.pdf), 
-[documentation](<https://www.cise.ufl.edu/research/SurfLab/papers/23PolySpl_TOMS_Doc.pdf>)
-[Blender] (<https://uf-cise-surflab.github.io/blender-polyhedral-splines-web/>) 
-
-### cite [Polyhedral-net Splines IsoGeometric Analysis] as  tbd
-
-<!-- TODO: Update above citation for Polyhedral Splines IGA instead of regular Polyhedral Splines. 
-Do we add a citation to one of the IGA papers? -->
-
-# - Environment Setting
+# Environment
 
 ### Recommended Operating Systems
 Linux (Ubuntu 20.04 LTS) & macOS (Monterey 12.6.2)
@@ -52,7 +38,7 @@ Check: CentOS 8: g++-8
 
 Check: Windows 10: Visual Studio 2017
 
-# - Building #
+# Building #
 
 For UNIX-based system:
 ```shell
@@ -91,7 +77,7 @@ cmake ../Source
 
 **Note:** alternatively in git: clone HTTPS  cut & paste in terminal;     generate passwd:   gear, personal, (left) app passwords, my label, repository: rw admin
 
-# - Usage #
+# Usage #
 * Input:  quad-dominant mesh in .obj file format
 * Output: BB-coefficients written in .bv file format.
 
