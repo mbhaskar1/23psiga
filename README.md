@@ -1,6 +1,6 @@
 # Polyhedral-Net Splines for Iso-Geometric Analysis #
 
-Python library for efficiently solving elliptic partial differential equations on smooth free-form surfaces represented by polyhedral control nets with irregular configurations (grid, n-gon, polar, etc.). For technical details regarding the codebase, please refer to our journal paper [Polyhedral control-net splines for analysis](https://www.sciencedirect.com/science/article/pii/S0898122123004261). This codebase was designed through the contributions of Bhaskar Mishra and William Gregory, as well as the guidance of Kyle Lo and Dr. Jorg Peters.
+C++ library for efficiently solving elliptic partial differential equations on smooth free-form surfaces represented by polyhedral control nets with irregular configurations (grid, n-gon, polar, etc.). For technical details regarding the codebase, please refer to our journal paper [Polyhedral control-net splines for analysis](https://www.sciencedirect.com/science/article/pii/S0898122123004261). This codebase was designed through the contributions of Bhaskar Mishra and William Gregory, as well as the guidance of Kyle Lo and Dr. Jorg Peters.
 
 # Environment
 
