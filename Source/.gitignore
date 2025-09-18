@@ -1,0 +1,27 @@
+# Vim files
+*.swp
+*.swo
+
+# Mac specific files
+.DS_Store
+
+# Atom compile
+*.cson
+
+# External projects
+/External/*
+
+# cmake-builds
+/cmake-build-debug/*
+/cmake-build-release/*
+
+# Visual Studio files
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.suo
+*.VC.db
+*.VC.opendb
+*.config
+
+packages/

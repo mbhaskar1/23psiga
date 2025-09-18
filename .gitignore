@@ -1,0 +1,35 @@
+# Vim files
+*.swp
+*.swo
+
+# Mac specific files
+.DS_Store
+.directory
+
+# Build files
+build/*
+Build/*
+
+# idea files
+.idea
+
+# output file
+output.bv
+
+# Visual Studio 2017 files
+packages.config
+*.vcxproj.filters
+*.vcxproj
+*.sln
+MeshBuilder - Copy.sln
+/Source/packages
+/Source/.vs/MeshBuilder/v15
+/Source/Release/MeshBuilder.tlog
+/Source/x64/Release/MeshBuilder.tlog
+/Source/x64/Debug
+/testfile/bv
+*.3dm
+*.3dm.rhl
+/Source/test_output.bv
+*.mtl
+/Source/x64
